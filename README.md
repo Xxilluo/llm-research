@@ -1,11 +1,9 @@
 # llm-research
-本项目是一个基于大模型 (LLM) 与本地 RAG 知识库检索的 API 安全自动化扫描与风险研判工具。它旨在解决传统安全扫描器“用例单一、报告不智能”的痛点，通过 LLM 智能生成高质量测试用例，并利用本地 RAG 引擎实现漏洞风险的自动分级与修复建议生成。
+This project is an API security automation scanning and risk assessment tool based on large models (LLM) and local RAG knowledge base retrieval. It aims to address the shortcomings of traditional security scanners, such as "limited use cases and unintelligent reports," by intelligently generating high-quality test cases with LLM and utilizing a local RAG engine for automatic vulnerability risk grading and remediation recommendation generation. 
 
-1.确保你的环境中已安装 Python 3.8+，并安装依赖
-2.在项目根目录创建 .env 文件
-3.在 targets.json 中配置需要审计的 API 接口
-4.运行main.py
+1. Ensure Python 3.8+ is installed in your environment and install dependencies.   
+2. Create a .env file in the project root directory.   
+3. Configure the API interfaces to be audited in targets.json.   
+4. Run main.py
 
-注意事项
-本工具仅用于授权的 SRC 场景、CTF 练习或自建靶场验证。
-使用过程中请遵循合规准则，严禁未经授权对第三方站点进行破坏性 Payload 扫描。
+Precautions: This tool is solely intended for authorized SRC scenarios, CTF exercises, or self-built range validation. During use, comply with regulatory guidelines and strictly prohibit unauthorized destructive payload scanning of third-party sites.
